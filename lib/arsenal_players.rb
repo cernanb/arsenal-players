@@ -1,5 +1,6 @@
-require "arsenal_players/version"
+require 'pry'
+require 'nokogiri'
+require 'open-uri'
 
-module ArsenalPlayers
-  # Your code goes here...
-end
+require_relative "./arsenal_players/version"
+require_relative './arsenal_players/cli'
